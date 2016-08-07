@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style type="text/css">
+	html,body,#gestureparent{
+		width: 100%;
+		height: 100%;
+	}
+</style>
+<body>
+	<div id='gestureparent'>
+		<canvas id='can'></canvas>
+	</div>
+</body>
+
+<!-- <script type="text/javascript" src="http://requirejs.org/docs/release/2.2.0/comments/require.js"></script> -->
+<!--<script type="text/javascript" src="require.js"></script>-->
+
+<script type="text/javascript" src='./dist/index.js'>
+	
+</script>
+
+<script>
+	// var arr = [
+	// 	{a:1,b:2},
+	// 	{a:3,b:1},
+	// 	{a:2,b:1}
+	// ]
+
+	// function sortF(a,b){
+	// 	return a.a-b.a
+	// }
+	// console.log(arr.sort(sortF));
+	// console.log(arr);
+
+
+	// function getArr(){
+	// 	var arr = [];
+	// 	for(var i =0;i<10;i++){
+	// 		arr.push(Math.floor(Math.random()*100))
+	// 	}
+	// 	return arr;
+	// }
+
+	// var arr = getArr();
+	// console.log(arr);
+
+
+	// function sortF(_arr){
+	// 	if(_arr.length<=1){
+	// 		return _arr;
+	// 	}
+
+	// 	var  midid = Math.floor(_arr.length/2);
+	// 	var minnum = _arr.splice(midid,1)[0];
+	// 	var left = [];
+	// 	var right = [];
+
+	// 	for(var i = 0;i<_arr.length;i++){
+	// 		if(_arr[i]>minnum){
+	// 			right.push(_arr[i])
+	// 		}else{
+	// 			left.push(_arr[i])
+	// 		}
+	// 	}
+	// 	// console.log(left.concat([minnum],right))
+	// 	return sortF(left).concat([minnum],sortF(right))
+	// }
+
+	// console.log(sortF(arr));
+
+
+	// var a = [1,2,3,4,5,6,7]
+
+	// function indexof(_id,_arr){
+	// 	var midid = Math.floor(_arr.length/2);
+	// 	console.log(midid)
+	// 	var concatarr = [];
+	// 	concatarr = concatarr.concat(_arr);
+	// 	if(_id==_arr[midid]){
+	// 		return midid;
+	// 	}
+	// 	var _testarr = []
+	// 	if(_id>_arr[midid]){
+	// 		_testarr = concatarr.splice(midid,midid)
+	// 	}else{
+	// 		_testarr = concatarr.splice(0,midid)
+	// 	}
+	// 	return indexof(_id,_testarr)
+	// }
+	// console.log(indexof(2,a));
+
+
+</script>
+
+</html>
